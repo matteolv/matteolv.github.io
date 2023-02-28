@@ -1,0 +1,207 @@
+
+/* Hola, mi nombre es Matteo Lovatto y este es mi proyecto final para el curso. Dejo esta nota para aclarar algunas cosas a la hora de revisarlo.
+1)No hice media querys porque no le vi sentido a que alguien trate de revisar un cv por medio de un celular(eso y que ademas la navbar de boostrap se rompe toda) y como en la pagina no dice que es obligatorio en ningun lado entonces preferi no hacerlo
+2)Toda la informacion de la pagina es, obviamente, falsa
+3)Las fuentes de donde saque codigo/fuentes/iconos que no son mios estan listados en el footer, de todos modos lo dejo por aca tambien:
+Google Fonts, font-awesome, bootstrap
+4)Por ultimo les dejo una recomendacion de dejar en la pagina algunos ejemplos con videos para darle una ayuda/idea a los alumnos a la hora de realizarlo ya que es bastante complicado hacer algo como esto sin conocimiento y con solo el mes de practica del curso(que te mete html, css y js en 1 mes lo cual es un montón)*/
+
+body {
+    background-color: #E7F6F2;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-3 {
+    padding: 0;
+}
+
+header {
+    background-color: #222831;
+    color: #E7F6F2;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+
+.li-estilizado {
+    list-style: none;
+    margin: 10px;
+}
+
+
+.imagen-nombre {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    background-color: #395B64;
+}
+
+.imagen-nombre img {
+    width: 100vw;
+    height: 90vh;
+}
+
+.imagen-nombre div{
+    position: absolute;
+    display: flex;
+    top: 180px;
+    color: #E7F6F2;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.imagen-nombre div p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#p1 {
+    font-weight: 800;
+    letter-spacing: 0,5rem;
+}
+
+#p2 {
+    color: #7F8487;
+    font-weight: 100;
+}
+
+.quien-soy {
+    background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.quien-soy h2 {
+    background-color: #393E46; 
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 100vw;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #00ADB5;
+}
+
+.quien-soy p {
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    width: 70vw;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 5%;
+}
+
+.estudios {
+    background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+
+}
+
+.estudios h2 {
+    background-color: #393E46;
+    width: 100vw;
+    margin-bottom: 3%;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #00ADB5;
+}
+
+.estudios p{
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    width: 70vw;
+    line-height: 2rem;
+    margin-left: 3%;
+}
+
+.estudios ul  {
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    width: 70vw;
+    line-height: 2.2rem;
+    margin-top: 0;
+    margin-left: 3%;
+}
+
+.experiencias {
+    background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.experiencias h2 {
+    background-color: #393E46;
+    width: 100vw;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #00ADB5;
+}
+
+.experiencias p{
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    width: 70vw;
+    line-height: 2rem;
+    margin-left: 3%;
+}
+
+
+footer {
+    display: flex;
+    background-color: #222831;
+    color: white;
+    justify-content: space-between;
+    padding: 0 2% 0 2%;
+    width: 100vw;
+}
+
+.container-contacto h2 {
+    padding: 5% 0 0 0;
+    color: #00ADB5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container-contacto ul {
+    margin: 10px 0 10px 0;
+    padding-left: 0;
+}
+
+.container-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.fuentes {
+    margin-top: 3%;
+    font-size: 1.1rem;
+}
+
+.li-footer {
+    margin-bottom: 0;
+}
+
+.a-estilizado {
+    text-decoration: none;
+    color: white; 
+}
